@@ -64,6 +64,8 @@ Contains match-level information for all IPL seasons.
 ### 2. `deliveries.csv`
 Contains ball-by-ball data for every delivery bowled across all IPL seasons.
 
+> ⚠️ **Note:** `deliveries.csv` is too large to upload directly to GitHub. You can download it from [Kaggle — IPL Dataset](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) and place it in the `datasets/` folder before running the notebook.
+
 | Column | Description |
 |--------|-------------|
 | `match_id` | Match reference ID |
@@ -139,8 +141,8 @@ Contains ball-by-ball data for every delivery bowled across all IPL seasons.
 IPL-Data-Analysis-Project/
 │
 ├── datasets/
-│   ├── matches.csv          # Match-level IPL data
-│   └── deliveries.csv       # Ball-by-ball IPL data
+│   ├── matches.csv          # Match-level IPL data (included)
+│   └── deliveries.csv       # Ball-by-ball IPL data (download separately — see note above)
 │
 ├── IPL_Data_Analysis.ipynb  # Main Jupyter Notebook with all analysis
 │
